@@ -1,0 +1,410 @@
+/* color-primario: #B774FC ;
+color-secundario: 7EE081;
+color-terciario: FFE74C;
+color-cuarto: FFFFFF;
+color-quinto: 35A7FF;
+ */
+h1{
+    color: rgb(8, 136, 206);
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+background-image: url(../img/fondo-monocromatico-blanco-estilo-papel_52683-66443.avif);
+}
+nav{
+    color: rgb(118, 13, 145);
+}
+.santutu{
+    color: rgb(0, 0, 0);
+
+}
+.messi{
+    background-color: rgb(0, 0, 0);
+}
+.cabeza{
+    color: rgb(48, 134, 101);
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nombre{
+    width: 220px;
+    color: black;
+}
+.apellido{
+    width: 220px;
+    color: black;
+}
+.email{
+    width: 220px;
+    color: black;
+}
+.contraseña{
+    width: 220px;
+    list-style-type: none;
+    padding: 0;
+    color: black;
+}
+.ah{
+    width: 220px;
+}
+/* .titulo{
+   
+} */
+.parrafodelformulario{
+    color: rgb(0, 0, 0);
+}
+
+.lista{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+   flex-wrap:wrap-reverse;
+
+    
+}
+.lista:hover{
+color: black;
+cursor:pointer;
+
+}
+.li1{
+    padding: 1em;
+    border: 1px solid black;
+    flex-grow: 40%;
+    background-image: url(../img/aaasasasass.jpg);
+}
+
+.li2{
+    padding: 1em;
+    border: 1px solid black;
+    flex-basis: 15%;
+    background-image: url(../img/aaasasasass.jpg);
+}
+.li3{
+    padding: 1em;
+    border: 1px solid black;
+    flex-basis: 15%;
+    background-image: url(../img/aaasasasass.jpg);
+}
+.li4{
+    padding: 1em;
+    border: 1px solid black;
+    flex-basis: 15%;
+    background-image: url(../img/aaasasasass.jpg);
+}
+.li5{
+    padding: 1em;
+    border: 1px solid black;
+    flex-basis: 15%;
+    background-image: url(../img/aaasasasass.jpg);
+}
+.li6{
+    padding: 1em;
+    border: 1px solid black;
+    flex-basis: 15%;
+    background-image: url(../img/aaasasasass.jpg);
+}
+.li7{
+    padding: 1em;
+    border: 1px solid black;
+    flex-basis: 15%;
+    background-image: url(../img/aaasasasass.jpg);
+}
+.li8{
+    padding: 1em;
+    border: 1px solid black;
+    flex-basis: 15%;
+    background-image: url(../img/aaasasasass.jpg);;
+}
+.li9{
+    padding: 1em;
+    border: 1px solid black;
+    flex-basis: 15%;
+    background-image: url(../img/aaasasasass.jpg);
+}
+.li10{
+    padding: 1em;
+    border: 1px solid black;
+    flex-basis: 15%;
+    background-image: url(../img/aaasasasass.jpg);
+}
+@media(min-width: 992px) {
+    .lista .li1 {
+        color: rgb(186, 253, 0)
+    }
+}
+
+.ultimas{
+    color: rgb(0, 0, 0);
+}
+.novedades{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+}
+.novedad1{
+    border: 1px solid black;
+}
+.novedad2{
+    border: 1px solid black;
+}
+.novedad3{
+    border: 1px solid black;
+}
+.novedad4{
+    border: 1px solid black;
+}
+.footer{
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+}
+.ig{
+    color: rgb(0, 0, 0);
+
+}
+.tk{
+    color: rgb(0, 0, 0);
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 900ms;
+    transition-property:background-color,color,border;
+    opacity: 0.7;
+    
+}
+.card:hover{
+background-color:rgb(175, 162, 162);
+color: black;
+cursor:pointer;
+box-shadow: 0px 0px 10px black;
+opacity: 1;
+}
+.card:hover img{
+    scale: 1.2;
+    overflow: hidden;
+
+}
+.card-title{
+    font-size: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.parrafo{
+    font-size: 18px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cards-container{
+    display: grid;
+    gap: 1em;
+}
+@media(min-width:992px){
+    .cards-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.card-img{
+    width: 60%;
+     max-height: 200px;
+     object-fit: cover;
+     border-radius: 10px;
+     transition: 1s scale;
+     overflow: hidden;
+     border-right: 200px;
+     display: flex;
+    
+}
+.porque{
+    color: rgb(0, 0, 0);
+}
+.compu{
+    color: rgb(0, 0, 0);
+}
+.queescompu{
+    color: rgb(0, 0, 0);
+}
+.respuesta{
+    color: rgb(0, 0, 0);
+}
+.aa{
+    color: rgb(0, 0, 0);
+}
+.software{
+    color: rgb(0, 0, 0);
+}
+.hardware{
+    color: rgb(0, 0, 0);
+}
+
+.volveratras{
+    padding: 1em;
+    border: 1px solid black;
+    flex-basis: 15%;
+    background-image: url(../img/aaasasasass.jpg);
+
+}
+.x{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+}
+.card-imga{
+    
+     
+     
+     border-left: 900px;
+}
+.pepsi{
+width: 250px;
+}
+
+.contenedor8{
+    text-align: start;
+}
+.palcadevideu{
+    color: rgb(255, 0, 0);
+
+}
+.gamamedia{
+    color: red;
+}
+.gamabaja{
+    color: red;
+}
+.cooler{
+    color: rgb(195, 0, 255);
+    font-family:'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.qw{
+    color: rgb(104, 62, 171);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 40000;
+  font-style: normal; 
+}
+.df{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boton-yt{
+    padding: 15px;
+    background-image: url(https://yt3.googleusercontent.com/ytc/AIdro_mhI-ccrZmD48Fn_A7igxvm70xYFy9TMjzVNfxOoc6Bk2s=s900-c-k-c0x00ffffff-no-rj);
+    background-size: contain;
+    margin-top:  1em;
+    }
+.boton-yt:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+footer{
+    bottom: 0;
+}
+
+
+footer{
+    background-color: rgb(235, 218, 227);
+    border: 0.5px solid red;
+    border-radius: 5px;
+    padding: 12.5px;
+    margin-top: 10%;
+    display: flex;
+    bottom: 0;
+   /*  width: 96.6%; */
+    
+}
+
+
+
+
+.boton-ig{
+    margin-left:30px;
+}
+
+
+
+
+
+.encabezado{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+    margin-bottom: 1%;
+    
+    }
+    
+.pp{
+    color: blue;
+
+}
+.sasa{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.er{
+color: rgb(0, 17, 255);
+font-family:fantasy;
+}
+
+.ty{
+
+        width: 350px;
+
+}
+
+
+
+.cx{
+    width: 200px;
+}
+
+.sa{
+color: rgb(82, 29, 255);
+font-family: monospace;
+}

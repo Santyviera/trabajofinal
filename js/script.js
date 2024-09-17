@@ -1,10 +1,10 @@
-/* function calcularArea( pi,radio){
+ function calcularArea( pi,radio){
 return `El area del circulo es ${(pi * radio**2)}`;
 
 }
-console.log(calcularArea(3.14 ,  40)); */
+console.log(calcularArea(3.14 ,  40)); 
 
-/* let numero1 = parseInt(prompt("ingrese el primer numero"));
+let numero1 = parseInt(prompt("ingrese el primer numero"));
 let numero2 = parseInt(prompt("ingrese el segundo numero"));
 let numero3 = parseInt(prompt("ingrese el tercer numero"));
 let numero4 = parseInt(prompt("ingrese el cuarto numero"));
